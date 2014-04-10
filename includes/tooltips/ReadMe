@@ -1,0 +1,22 @@
+Zebra PHP Framework
+
+PHP JavaScript Tooltips Generator Class
+
+author     Stefan Gabos, ix at nivelzero dot ro
+version    1.1c (last revision: January 28, 2007)
+copyright  (c) 2006 - 2007 Stefan Gabos
+
+A class used to generate JavaScript tooltips.
+
+-   works on all major browsers (no transparency on Opera, though)
+-   in Internet Explorer the tooltips show above HTML SELECT elements
+-   the appearance of the tooltips is template driven
+-   only onmouseover/onmousemove events need to be sepcified - no onmouseout!
+
+Read the documentation for more information and check out the examples to see it at work!
+
+Read the LICENSE file, provided with the package, to find out how you can use this PHP script.
+If you don't find this file, please write an email to noname at nivelzero dot ro and you will be
+sent a copy of the license file
+
+For more resources visit http://stefangabos.blogspot.com

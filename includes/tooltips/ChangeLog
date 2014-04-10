@@ -1,0 +1,42 @@
+version 1.1c (January 28, 2007)
+
+    -   further improvement on automatic tooltip repositioning in order to keep
+        the tooltip in the visible part of the browser window if it would "flow"
+        outside
+
+version 1.1b (November 15, 2006)
+
+    -   if a tooltip was larger than the visible area of the browser's screen
+        the scrollbar would not disappear when the tooltip was hidden
+    -   further improvement on automatic tooltip repositioning in order to keep
+        the tooltip in the visible part of the browser window if it would "flow"
+        outside
+
+version 1.1 (November 15, 2006)
+
+    -   in Firefox, the tooltips were showing up in the correct position only
+        the first time - after that, the tooltips would show in the top left
+        corner of the screen
+    -   "sticky" tooltips can now be created - tooltips that follow the mouse
+        cursor - you can do that by calling the "show" method on the
+        onmousemove event rather than on the onmouseover event
+    -   in Internet Explorer the vertical scrollbar would appear if a tooltip
+        was shown
+    -   improved automatic tooltip repositioning in order to keep the tooltip
+        in the visible part of the browser window if it would "flow" outside
+    -   some code clean up
+
+version 1.0 (October 09, 2006)
+
+    -   even though the examples were working fine, because of the ways paths
+        were handled, you had to manually alter the paths in the template
+        file in order for class to work in real life - that's outside of the
+        examples folder :)
+    -   transparency was not working in Safari
+    -   the init() method can now be instructed to return the output instead of
+        outputting it to the screen - useful when you're working with templating
+        engines
+
+version 1.0 BETA (September 25, 2006)
+
+    -   initial release

@@ -1,0 +1,580 @@
+<html>
+<head>
+<title>Docs For Class tooltips</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48"
+	width="100%">
+	<tr>
+		<td class="header_top">tooltips</td>
+	</tr>
+	<tr>
+		<td class="header_line"><img src="../media/empty.png" width="1"
+			height="1" border="0" alt="" /></td>
+	</tr>
+	<tr>
+		<td class="header_menu">[ <a href="../classtrees_tooltips.html"
+			class="menu">class tree: tooltips</a> ] [ <a
+			href="../elementindex_tooltips.html" class="menu">index: tooltips</a>
+		] [ <a href="../elementindex.html" class="menu">all elements</a> ]</td>
+	</tr>
+	<tr>
+		<td class="header_line"><img src="../media/empty.png" width="1"
+			height="1" border="0" alt="" /></td>
+	</tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr valign="top">
+		<td width="200" class="menu">
+		<div id="ric">
+		<p><a href="../ric_ChangeLog.html">ChangeLog</a></p>
+		<p><a href="../ric_License.html">License</a></p>
+		<p><a href="../ric_ReadMe.html">ReadMe</a></p>
+		</div>
+		<b>Packages:</b><br />
+		<a href="../li_tooltips.html">tooltips</a><br />
+		<br />
+		<br />
+		<b>Files:</b><br />
+		<div class="package"><a
+			href="../tooltips/_class.tooltips.php.html"> tooltips </a><br>
+		</div>
+		<br />
+
+
+		<b>Classes:</b><br />
+		<div class="package"><a href="../tooltips/tooltips.html">tooltips</a><br />
+		</div>
+		</td>
+		<td>
+		<table cellpadding="10" cellspacing="0" width="100%" border="0">
+			<tr>
+				<td valign="top">
+
+				<h1>Class: tooltips</h1>
+				Source Location: /class.tooltips.php<br />
+				<br />
+
+
+				<table width="100%" border="0">
+					<tr>
+						<td valign="top">
+
+						<h3><a href="#class_details">Class Overview</a></h3>
+						<pre></pre><br />
+						<div class="description">A class used to generate JavaScript
+						tooltips.</div>
+						<br />
+						<br />
+						<h4>Author(s):</h4>
+						<ul>
+							<li>Stefan Gabos &lt;<a href="mailto:ix@nivelzero.ro">ix@nivelzero.ro</a>&gt;</li>
+						</ul>
+
+
+
+
+
+
+
+						<h4>Version:</h4>
+						<ul>
+							<li>1.1c (last revision: January 28, 2007)</li>
+						</ul>
+
+						<h4>Copyright:</h4>
+						<ul>
+							<li>(c) 2006 - 2007 Stefan Gabos</li>
+						</ul>
+
+						</td>
+
+						<td valign="top">
+						<h3><a href="#class_vars">Variables</a></h3>
+						<ul>
+							<li><a href="../tooltips/tooltips.html#var$error">$error</a></li>
+							<li><a href="../tooltips/tooltips.html#var$fadeInDelay">$fadeInDelay</a></li>
+							<li><a href="../tooltips/tooltips.html#var$fadeInSpeed">$fadeInSpeed</a></li>
+							<li><a href="../tooltips/tooltips.html#var$fadeOutDelay">$fadeOutDelay</a></li>
+							<li><a href="../tooltips/tooltips.html#var$fadeOutSpeed">$fadeOutSpeed</a></li>
+							<li><a href="../tooltips/tooltips.html#var$maximumOpacity">$maximumOpacity</a></li>
+							<li><a href="../tooltips/tooltips.html#var$offsetX">$offsetX</a></li>
+							<li><a href="../tooltips/tooltips.html#var$offsetY">$offsetY</a></li>
+							<li><a href="../tooltips/tooltips.html#var$template">$template</a></li>
+						</ul>
+						</td>
+
+
+						<td valign="top">
+						<h3><a href="#class_methods">Methods</a></h3>
+						<ul>
+							<li><a href="../tooltips/tooltips.html#methodinit">init</a></li>
+							<li><a href="../tooltips/tooltips.html#methodshow">show</a></li>
+						</ul>
+						</td>
+
+					</tr>
+				</table>
+				<hr />
+
+				<table width="100%" border="0">
+					<tr>
+
+
+
+
+
+
+					</tr>
+				</table>
+				<hr />
+
+				<a name="class_details"></a>
+				<h3>Class Details</h3>
+				<div class="tags">[line 39]<br />
+				A class used to generate JavaScript tooltips.<br />
+				<br />
+				<p>
+				<ul>
+					<li>works on all major browsers (no transparency on Opera,
+					though)</li>
+					<li>in Internet Explorer the tooltips show above HTML SELECT
+					elements</li>
+					<li>the appearance of the tooltips is template driven</li>
+					<li>only onmouseover/onmousemove events need to be sepcified -
+					no onmouseout!</li>
+				</ul>
+				Though the JavaScript code is mainly written by myself there are
+				some bits taken from the Internet:
+				</p>
+				<p>
+				<ul>
+					<li>9 lines of code to find the cursor position even if the
+					page was scrolled - I really can't remember where I have this code
+					from...</li>
+					<li>16 lines of code for a cross-browser solution to determine
+					the width and height of the browser's window and the scrolling
+					values - this one I have from <a
+						href="http://www.howtocreate.co.uk/tutorials/javascript/browserwindow">http://www.howtocreate.co.uk/tutorials/javascript/browserwindow</a>
+					and is written by Mark Wilton-Jones - thanks!</li>
+				</ul>
+				See the documentation for more info.
+				</p>
+				<p>Read the LICENSE file, provided with the package, to find out
+				how you can use this PHP script.</p>
+				<p>If you don't find this file, please write an email to noname
+				at nivelzero dot ro and you will be sent a copy of the license file</p>
+				<p>For more resources visit <a
+					href="http://stefangabos.blogspot.com">http://stefangabos.blogspot.com</a></p>
+				<br />
+				<br />
+				<br />
+				<h4>Tags:</h4>
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>example:</b>&nbsp;&nbsp;</td>
+						<td><a
+							href="../__examplesource/exsource_tdocs_zebra_classes_tooltips_examples_example1.php_7f43653034721488547fcf0a1e4b7757.html">example</a></td>
+					</tr>
+					<tr>
+						<td><b>example:</b>&nbsp;&nbsp;</td>
+						<td><a
+							href="../__examplesource/exsource_tdocs_zebra_classes_tooltips_examples_example2.php_5eb5937a006a0f063fe96fb5b54e9608.html">example</a></td>
+					</tr>
+					<tr>
+						<td><b>copyright:</b>&nbsp;&nbsp;</td>
+						<td>(c) 2006 - 2007 Stefan Gabos</td>
+					</tr>
+					<tr>
+						<td><b>author:</b>&nbsp;&nbsp;</td>
+						<td>Stefan Gabos &lt;<a href="mailto:ix@nivelzero.ro">ix@nivelzero.ro</a>&gt;</td>
+					</tr>
+					<tr>
+						<td><b>version:</b>&nbsp;&nbsp;</td>
+						<td>1.1c (last revision: January 28, 2007)</td>
+					</tr>
+					<tr>
+						<td><b>name:</b>&nbsp;&nbsp;</td>
+						<td>tooltips</td>
+					</tr>
+				</table>
+				</div>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+
+				<hr />
+				<a name="class_vars"></a>
+				<h3>Class Variables</h3>
+				<div class="tags"><a name="var$error"></a>
+				<p></p>
+				<h4>$error = <span class="value"></span></h4>
+				<p>[line 143]</p>
+				In case of an error read this property's value to find out what went
+				wrong<br />
+				<br />
+				<p>possible error values are:</p>
+				<p>
+				<ul>
+					<li>1: XTemplate class could not be found</li>
+					<li>2: template file could not be found</li>
+					<li>3: you must call the init() method first</li>
+				</ul>
+				default is 0
+				</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$fadeInDelay"></a>
+				<p></p>
+				<h4>$fadeInDelay = <span class="value"></span></h4>
+				<p>[line 80]</p>
+				How long (in milliseconds) should the script wait
+				onmousemove/onmouseover, before starting to fade in a tooltip<br />
+				<br />
+				<p>Default is 0</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$fadeInSpeed"></a>
+				<p></p>
+				<h4>$fadeInSpeed = <span class="value"></span></h4>
+				<p>[line 50]</p>
+				The speed with which a tooltip should fade in.<br />
+				<br />
+				<p>Can be any value between 1 and 100</p>
+				<p>Default is 20</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$fadeOutDelay"></a>
+				<p></p>
+				<h4>$fadeOutDelay = <span class="value"></span></h4>
+				<p>[line 70]</p>
+				How long (in milliseconds) should the script wait onmouseout, before
+				starting to fade out a tooltip<br />
+				<br />
+				<p>Default is 500</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$fadeOutSpeed"></a>
+				<p></p>
+				<h4>$fadeOutSpeed = <span class="value"></span></h4>
+				<p>[line 60]</p>
+				The speed with which a tooltip should fade out.<br />
+				<br />
+				<p>Can be any value between 1 and 100</p>
+				<p>Default is 20</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$maximumOpacity"></a>
+				<p></p>
+				<h4>$maximumOpacity = <span class="value"></span></h4>
+				<p>[line 89]</p>
+				A percentual value representing the maximum opacity a tooltip can
+				get<br />
+				<br />
+				<p>Default is 100</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$offsetX"></a>
+				<p></p>
+				<h4>$offsetX = <span class="value"></span></h4>
+				<p>[line 103]</p>
+				How far (in pixels), horizontally, should the tooltip's top-left
+				corner be positioned relatively to the mouse cursor<br />
+				<br />
+				<p>A positive number means &quot;how far to the right&quot;
+				while a negative number means &quot;how far to the left&quot;.</p>
+				<p><em>Note that, if needed, the script will automatically
+				adjust the tooltip's horizontal position so that it will always be
+				inside the visible area of the browser's window!</em></p>
+				<p>Default is 20</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$offsetY"></a>
+				<p></p>
+				<h4>$offsetY = <span class="value"></span></h4>
+				<p>[line 117]</p>
+				How far (in pixels), vertically, should the tooltip's top-left
+				corner be positioned relatively to the mouse cursor<br />
+				<br />
+				<p>A positive number means &quot;how far to the bottom&quot;
+				while a negative number means &quot;how far to the top&quot;.</p>
+				<p><em>Note that, if needed, the script will automatically
+				adjust the tooltip's vertical position so that it will always be
+				inside the visible area of the browser's window!</em></p>
+				<p>Default is 20</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>integer</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				<a name="var$template"></a>
+				<p></p>
+				<h4>$template = <span class="value"></span></h4>
+				<p>[line 128]</p>
+				Template folder to use Note that only the folder of the template you
+				wish to use needs to be specified. Inside the folder you <strong>must</strong>
+				have the <strong>template.xtpl</strong> file which will be
+				automatically used<br />
+				<br />
+				<p>default is &quot;default&quot;</p>
+				<br />
+				<br />
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>Type:</b>&nbsp;&nbsp;</td>
+						<td>string</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				<br />
+				</div>
+				<br />
+
+				<hr />
+				<a name="class_methods"></a>
+				<h3>Class Methods</h3>
+				<div class="tags">
+
+				<hr />
+				<a name="methodinit"></a>
+				<h3>method init <span class="smalllinenumber">[line 190]</span></h3>
+				<div class="function">
+				<table width="90%" border="0" cellspacing="0" cellpadding="1">
+					<tr>
+						<td class="code_border">
+						<table width="100%" border="0" cellspacing="0" cellpadding="2">
+							<tr>
+								<td class="code"><code>boolean init( [boolean $toVar
+								= false])</code></td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				<br />
+
+				Initializes the tooltips.<br />
+				<br />
+				<p><strong>You need to place a call to this method in
+				the &lt;BODY&gt; of your HTML as this method parses the
+				&quot;init&quot; section of the template which makes a link to the
+				stylesheet and to the javascript file</strong></p>
+				<br />
+				<br />
+				<br />
+				<h4>Tags:</h4>
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>return:</b>&nbsp;&nbsp;</td>
+						<td>Returns TRUE on success or FALSE on failure</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+
+
+				<h4>Parameters:</h4>
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="type" valign="top">boolean&nbsp;&nbsp;</td>
+						<td valign="top"><b>$toVar</b>&nbsp;&nbsp;</td>
+						<td>
+						<p>If you set this to TRUE, the method will return the output
+						instead of outputting it to the screen - useful when you're
+						working with templating engines.</p>
+						<p>Default is FALSE</p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+						<hr>
+						</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				</div>
+				<hr />
+				<a name="methodshow"></a>
+				<h3>method show <span class="smalllinenumber">[line 276]</span></h3>
+				<div class="function">
+				<table width="90%" border="0" cellspacing="0" cellpadding="1">
+					<tr>
+						<td class="code_border">
+						<table width="100%" border="0" cellspacing="0" cellpadding="2">
+							<tr>
+								<td class="code"><code>mixed show( string $content)</code>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				<br />
+
+				Returns the JavaScript code that will make a tooltip show.<br />
+				<br />
+				<p>This JavaScript code needs to be inserted as an
+				onmouseover/onmousemove event for an HTML element</p>
+				<br />
+				<br />
+				<br />
+				<h4>Tags:</h4>
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><b>return:</b>&nbsp;&nbsp;</td>
+						<td>Returns the JavaScript code that will make the tooltip
+						show on success or FALSE on failure</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<br />
+
+
+				<h4>Parameters:</h4>
+				<div class="tags">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td class="type" valign="top">string&nbsp;&nbsp;</td>
+						<td valign="top"><b>$content</b>&nbsp;&nbsp;</td>
+						<td>
+						<p>The string to be shown in the tooltip.</p>
+						<p><em>You don't have to escape the value of $content!</em></p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+						<hr>
+						</td>
+					</tr>
+				</table>
+				</div>
+				<br />
+				<div class="top">[ <a href="#top">Top</a> ]</div>
+				</div>
+				</div>
+				<br />
+
+
+				<div class="credit">
+				<hr />
+				Documentation generated on Sat, 03 Mar 2007 23:54:40 +0200 by <a
+					href="http://www.phpdoc.org">phpDocumentor 1.3.0RC6</a></div>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!-- BEGIN: main -->
+
+    <!-- BEGIN: init -->
+    <script language="javascript" type="text/javascript" src="{relativePath}/includes/tooltips.js"></script>
+    <link rel="stylesheet" href="{relativePath}/templates/{template}/style.css" type="text/css">
+    <script language="JavaScript" type="text/javascript">
+        {JavaScriptSettings}
+    </script>
+    <!-- END: init -->  
+    
+    <!-- BEGIN: tooltip -->
+    <div class="PHPTooltips_Main">
+
+        <!-- EDIT ONLY FROM HERE!!! -->
+        {content}
+        <!-- TO HERE!!! -->
+
+    </div>
+    <!-- END: tooltip -->
+
+<!-- END: main -->

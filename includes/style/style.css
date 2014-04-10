@@ -1,0 +1,328 @@
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.subtitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #0066FF;
+}
+
+.label {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.notaemail {
+	color: #0066FF
+}
+
+.nota {
+	font-size: 9px;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+.notaerror {
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF0000;
+}
+
+.requerido {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	display: inline;
+}
+
+.requridoerror {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	display: none;
+}
+
+.rssbutton {
+	background-color: #ff6600;
+	border: 1px #ff6600 outset;
+	padding: 0 2px;
+	color: white;
+	text-decoration: none;
+	font: bold 10px Verdana;
+}
+
+.rssbutton:visited,.rssbutton:hover,.rssbutton:active {
+	color: white;
+}
+
+.cssbutton {
+	background-color: #006699;
+	border: 2px outset #999999;
+	padding: 1px 4px;
+	color: #99CCFF;
+	text-decoration: none;
+	font: bolder 12px Arial, Helvetica, sans-serif;
+}
+
+.cssbutton:visited {
+	color: black;
+}
+
+.cssbutton:hover {
+	border-style: inset;
+	background-color: #666666;
+	padding: 2px 3px 0 5px;
+	text-decoration: underline;
+}
+
+.cssbutton:active {
+	color: black;
+}
+
+.aceptacondicion {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.condiciones:link {
+	color: #666666;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.condiciones:visited {
+	color: #666666;
+}
+
+.condiciones:hover {
+	color: #99CCFF;
+}
+
+.forget:link {
+	color: #0066FF;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.forget:visited {
+	color: #0066FF;
+}
+
+.forget:hover {
+	color: #99CCFF;
+}
+
+/* The Footer*/
+.footer {
+	color: White; /* this is the colour of the font */
+	background-color: #006699; /* this is the background colour */
+	text-align: center;
+	font-size: 11px;
+}
+
+.footer a:link {
+	color: White;
+}
+
+.footer a:visited {
+	color: #99CCFF;
+}
+
+.footer a:hover {
+	color: #FFB342;
+}
+
+.labelinfocredito {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0066FF;
+	font-weight: bold;
+}
+
+.totalinfocredito {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.tituloatencioncliente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF6600;
+}
+
+.subtituloatencioncliente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000066;
+	font-weight: bold;
+}
+
+.viñetaatencioncliente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0066FF;
+	font-weight: bold;
+}
+
+.contenidoatencioncliente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.tituloerrorlog {
+	color: #000066;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.subtituloerrorlog {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+.viñetaerrorlog {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.subtitulo2errorlog {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.titulorecuperadatos {
+	color: #000066;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido1recuperadatos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+.contenido2recuperadatos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.contenido3recuperadatos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #999999;
+	font-weight: bold;
+}
+
+.contenido4recuperadatos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.labelrecuperadatos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.mensajerecuperadatos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+}
+
+/*Credits: Dynamic Drive CSS Library */
+	/*URL: http://www.dynamicdrive.com/style/ */
+.glossymenu {
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 0;
+	width: 120px;
+	border: 1px solid #9A9A9A;
+	border-bottom-width: 0;
+}
+
+.glossymenu li a {
+	background: white url(../images/glossyback.gif) repeat-x bottom left;
+	font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica,
+		sans-serif;
+	color: white;
+	display: block;
+	width: auto;
+	padding: 3px 0;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+* html .glossymenu li a {
+	/*IE only. Actual menu width minus left padding of A element (10px) */
+	width: 120px;
+}
+
+.glossymenu li a:visited,.glossymenu li a:active {
+	color: white;
+}
+
+.glossymenu li a:hover {
+	background-image: url(../images/glossyback2.gif);
+}
+
+.formas {
+	BORDER-RIGHT: #0066ff 1px dotted;
+	BORDER-TOP: #0066ff 1px dotted;
+	BACKGROUND-IMAGE: none;
+	FONT: 9px Verdana, Arial, Helvetica, sans-serif;
+	BORDER-LEFT: #0066ff 1px dotted;
+	COLOR: #000033;
+	BORDER-BOTTOM: #0066ff 1px dotted;
+	BACKGROUND-REPEAT: repeat;
+	BACKGROUND-COLOR: #f2f2f2
+}
+
+.head {
+	BACKGROUND: #000000;
+	COLOR: #FFFFFF;
+	text-align: center;
+}
+
+.celdas1 {
+	BACKGROUND: #e6e6e6;
+	COLOR: #000033
+}
+
+.celdas2 {
+	BACKGROUND: #D0D0D0;
+	COLOR: #000033
+}
+
+.celdas3 {
+	BACKGROUND: #FFFFFF;
+	COLOR: #000000
+}
+
+.celdas4 {
+	BACKGROUND: #FFFFFF;
+	COLOR: #0000FF
+}
+
+.resaltarError {
+	FONT: 9px Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	COLOR: #FFFFFF;
+}
